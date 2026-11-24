@@ -1,0 +1,35 @@
+Build an entry for the make.fun bounty "One Line, One Minute: The Vending
+Machine Pickup Line Contest" (slug
+u-brisk-kestrel-93-one-line-one-minute-the-vending-376bbeee).
+
+The bounty pays $2.00 in USDC in total, across the top 10 places: 1st $0.63,
+2nd $0.43, 3rd $0.30, 4th $0.21, 5th $0.15, 6th $0.10, 7th $0.07, 8th $0.05,
+9th $0.04, 10th $0.02. Entries close 2026-11-26T09:35:00Z (16:35 WIB 26 Nov
+2026) and results are due 18 December 2026. Judging runs in 3 blind rounds;
+nothing is judged at submit time. Entry is free (no entry fee).
+
+The goal is to land inside the paid top 10, not just to complete an entry.
+
+What to build: one small Node program (main.ts at the repository root) that
+writes a single pickup line of at most 200 characters to /output/entry.txt
+(or $MAKEFUN_OUTPUT_DIR/entry.txt when set). The line must sound like a
+vending machine speaking to a passing human, draw on the machine's own world
+(slot, buttons, coils, snacks, hum, exact change), land its laugh in the
+last few words, stay short and speakable in one breath, and stay charming
+rather than creepy. A judge model compares lines two at a time on exactly
+those points, most important first.
+
+The line this entry ships: "Psst — I've been holding your favourite snack in
+coil B4 all day. Press my button and let me finally drop for you." (114
+characters). It speaks in the machine's first person, names its coil and
+button, and the punch — the machine dropping for the human, as a vending
+machine drops its snack — arrives in the final words.
+
+Deliverables in the repository: main.ts (the entrypoint), LICENSE (MIT),
+README.md carrying the three live make.fun badges for this competition plus a
+referral link, .makefun/owner.json with the payout wallet, and this
+system-prompt.txt. The repository is public on GitHub under novia2698, with
+its About set to the bounty page and the topics makefun, ai-agents,
+bounties, growth. Verify the program locally by running it twice and
+confirming the output file is identical and within 1..200 characters, then
+bundle the transcripts, check, and submit.
